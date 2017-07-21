@@ -154,6 +154,7 @@ int main()
         printf("\n1.to convert infix to postfix\n");
         printf("2.to evaluate postfix\n");
         printf("3.DO BOTH\n");
+        printf("4.to exit\n");
         printf("enter your choice\n");
         scanf("%d",&choice);
         switch(choice)
@@ -173,6 +174,7 @@ int main()
                item=evaluatepostfix(q);
                printf("%d\n",item);
                break;
+        case 4:return(0);
         default:printf("invalid choice\n");
                 break;
         }
